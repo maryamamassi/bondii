@@ -1,0 +1,61 @@
+.navbar{
+    background-color: #19283f;
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+    
+}
+.navbar .navbar-nav .nav-link:active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+    color: #04aeab;
+}
+
+.navbar .search{
+
+    border-left: 1px solid #04aeab; 
+
+}
+.navbar .search svg{
+    color: #04aeab;
+}
+
+.main-btn{
+    background-color: #ff3150;
+    border: 1px solid #ff3150;
+    color: #ffc501;
+}
+.landing{
+    background-color: #19283f;
+    height: calc(100vh - 70px);
+}
+h1,#weMake{
+    color: white;
+}
+.main-title::after{
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: #04aeab;
+    position: absolute;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+.features .icon-holder{
+    height: 200px;
+}
+.features .icon-holder .number{
+    font-size: 12rem;
+    color: #eff7fa;
+}
+.features .icon-holder .icon{
+    color: #33d1cc;
+    font-size: 4rem;
+}
+.features .icon-holder svg{
+    left: 50%;
+    transform:translate(-50%);
+}
+.footer{
+    
+}
